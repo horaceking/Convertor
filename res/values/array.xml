@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_array">
+        <item >temperature</item>
+        <item >time</item>
+        <item >length</item>
+        <item >speed</item>
+        <item >weight</item>
+    </string-array>
+    <string-array name="temperature">
+        <item >centigrade</item>
+        <item >fahrenheit</item>
+        <item >kelvin</item>
+        <item >Rankine</item>
+        <item >Reaumur</item>
+    </string-array>
+    <string-array name="temperature_m">
+        <item >°C</item>
+        <item >°F</item>
+        <item >K</item>
+        <item >°Ra</item>
+        <item >°Re</item>
+    </string-array>
+    <string-array name="temperature1">
+        <item >centigrade1</item>
+        <item >fahrenheit1</item>
+        <item >kelvin1</item>
+        <item >Rankine1</item>
+        <item >Reaumur1</item>
+    </string-array>
+    <string-array name="temperature_m1">
+        <item >°C1</item>
+        <item >°F1</item>
+        <item >K1</item>
+        <item >°Ra1</item>
+        <item >°Re1</item>
+    </string-array>
+    
+</resources>

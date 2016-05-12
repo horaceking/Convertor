@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>     
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:background="@drawable/content_bg" 
+    > 
+    <LinearLayout
+        android:id="@+id/content_frame"
+        android:orientation="vertical" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent" >
+    </LinearLayout>
+    <LinearLayout 
+    	    android:id="@+id/mask"
+    	    android:orientation="vertical" 
+    	    android:visibility="gone"
+    	    android:background="@android:color/transparent"
+    	    android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent"
+    	 ></LinearLayout>
+<SlidingDrawer 
+    android:id="@+id/slidingdrawer" 
+    android:layout_width="240dp" 
+    android:layout_height="fill_parent" 
+    android:orientation="horizontal" 
+    android:handle="@+id/handle" 
+    android:content="@+id/content"
+    android:layout_gravity="right"> 
+    <ImageView 
+            android:id="@+id/handle" 
+            android:layout_width="30dp" 
+            android:layout_height="match_parent" 
+            android:background="@drawable/drawerview_btn" 
+        /> 
+    <LinearLayout 
+        android:id="@+id/content" 
+        android:layout_width="240dp" 
+        android:layout_height="fill_parent" 
+        android:background="@drawable/drawerview_bg"> 
+        <ListView 
+            android:id="@+id/right_drawer" 
+            android:layout_width="200dp" 
+            android:layout_height="wrap_content" 
+            android:choiceMode="singleChoice" 
+            android:paddingLeft="10dp"
+            android:listSelector="#0ba9a6"
+        /> 
+    </LinearLayout> 
+</SlidingDrawer> 
+
+
+</FrameLayout> 
+        
+    
+   

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:descendantFocusability="beforeDescendants"
+    android:background="@drawable/item_bg"
+    android:layout_width="300dp"
+    android:layout_height = "50dp"
+    android:gravity="center"
+    >
+    
+     <TextView
+        android:id="@+id/name"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:textSize="6pt" 
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        />
+     
+     
+<EditText 
+    android:id="@+id/value"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:singleLine="true"
+    android:textSize="10pt"
+    android:textColor="#067370"
+    android:layout_weight="1"
+    />
+   
+
+    <TextView
+        android:id="@+id/measurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textSize="10pt"
+        android:textColor="#067370"
+   />
+
+
+
+</LinearLayout>
